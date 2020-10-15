@@ -1,0 +1,25 @@
+{
+  "name": "ejerciciosjs",
+  "version": "1.0.0",
+  "description": "Ejercicios de tarea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegolopez03/EjerciciosJS.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "javascript"
+  ],
+  "author": "Diego López",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegolopez03/EjerciciosJS/issues"
+  },
+  "homepage": "https://github.com/diegolopez03/EjerciciosJS#readme"
+}
