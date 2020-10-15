@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/diegolopez03/EjerciciosJS/issues"
   },
-  "homepage": "https://github.com/diegolopez03/EjerciciosJS#readme"
+  "homepage": "https://github.com/diegolopez03/EjerciciosJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
