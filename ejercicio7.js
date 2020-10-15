@@ -1,21 +1,23 @@
-console.log("Ejercicio 7");
-const matches = (houses) => {
+
+exports.matches = (houses) => {
     let n = 6;
     let sum = 1;
+    console.log(houses);
     if (houses>1) {
        for(i = 1; i<=houses; i++){
         sum += n;
         sum --;
        }
-       console.log(sum); 
-    } else if(houses===1){
-        let n = 6;
-        console.log(6);
-    } else if(houses===0){
-        console.log(0);
+       return sum;
+    } else if(houses==1){
+        sum = 6;
+        return sum;
+    } else if(houses==0){
+        
+        return sum-1;
     }
     else{
-        console.log("No se aceptan números negativos");
+        sum = "No se aceptan números negativos"
+        return sum;
     }
 }
-matches(4);
